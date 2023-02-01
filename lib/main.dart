@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
       title: 'Every Flutter Widget',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter Mapp'),
+          title: const Text('Flutter'),
         ),
-        body: const Text('Flutter Mapp'),
+        body: const Text('Flutter'),
       ),
     );
   }
