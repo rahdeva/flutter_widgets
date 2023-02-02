@@ -20,13 +20,13 @@ class HomeView extends GetView<HomeController> {
         padding: const EdgeInsets.symmetric(vertical: 16),
         child: SingleChildScrollView(
           child: ListView.builder(
-            itemCount: controller.dataList.length,
+            itemCount: controller.widgetList.length,
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
             itemBuilder: (context, index) {
               return WidgetItems(
                 index: index,
-                data: controller.dataList[index],
+                data: controller.widgetList[index],
               );
             }
           ),
