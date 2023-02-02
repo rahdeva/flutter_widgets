@@ -47,28 +47,27 @@ class WidgetItems extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 18),
               child: Row(
                 children: [
-                  Container(
-                    width: 88,
-                    height: 88,
-                    
+                  CircleAvatar(
+                    radius: 32,
+                    backgroundColor: const Color(0xFFE5F8F7),
+                    child: Text(index.toString()),
                   ),
                   const SizedBox(width: 20),
                   Expanded(
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
-                          "txt_specialist_empty",
+                          data,
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            fontSize: 16,
+                          style: const TextStyle(
+                            fontSize: 18,
                             fontWeight: FontWeight.bold,
                             color: Color(0xFF3D3D3D)
                           ),
                         ),
-                        SizedBox(height: 8),
                       ],
                     ),
                   ),
