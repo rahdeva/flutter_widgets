@@ -23,8 +23,8 @@ class Widget016State extends State<Widget016> {
             curve: Curves.fastOutSlowIn,
             elevation: _isFlat ? 0 : 6.0,
             shape: BoxShape.rectangle,
-            shadowColor: Colors.black,
-            color: Colors.white,
+            shadowColor: Colors.red,
+            color: Colors.orange,
             child: const SizedBox(
               height: 120.0,
               width: 120.0,

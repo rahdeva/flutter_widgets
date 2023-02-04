@@ -1,15 +1,15 @@
-//!CupertinoTabBar
+//!CupertinoTabScaffold
 
 import 'package:flutter/cupertino.dart';
 
-class Widget069 extends StatefulWidget {
-  const Widget069({Key? key}) : super(key: key);
+class Widget073 extends StatefulWidget {
+  const Widget073({Key? key}) : super(key: key);
 
   @override
-  State<Widget069> createState() => _Widget069State();
+  State<Widget073> createState() => _Widget073State();
 }
 
-class _Widget069State extends State<Widget069> {
+class _Widget073State extends State<Widget073> {
   @override
   Widget build(BuildContext context) {
     return CupertinoTabScaffold(

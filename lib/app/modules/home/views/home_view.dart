@@ -26,7 +26,7 @@ class HomeView extends GetView<HomeController> {
             itemBuilder: (context, index) {
               return WidgetItems(
                 widgetView: controller.widgetView[index],
-                index: index,
+                index: index + 1,
                 data: controller.widgetList[index],
               );
             }

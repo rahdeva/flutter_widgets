@@ -6,12 +6,17 @@ class Widget045 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ColorFiltered(
-      colorFilter: const ColorFilter.mode(
-        Colors.white,
-        BlendMode.color,
-      ),
-      child: Image.asset('assets/icon/blue.jpg'),
+    return Column(
+      children: [
+        ColorFiltered(
+          colorFilter: const ColorFilter.mode(
+            Colors.white,
+            BlendMode.color,
+          ),
+          child: Image.network('https://picsum.photos/seed/picsum/200/300'),
+        ),
+        Image.network('https://picsum.photos/seed/picsum/200/300'),
+      ],
     );
   }
 }

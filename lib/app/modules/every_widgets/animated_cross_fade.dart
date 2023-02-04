@@ -29,17 +29,17 @@ class _Widget009State extends State<Widget009> {
           child: const Text(
             'Switch',
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
         ),
         AnimatedCrossFade(
-          firstChild: Image.asset(
-            'assets/icon/blue.jpg',
+          firstChild: Image.network(
+            'https://picsum.photos/200/300?random=1',
             width: double.infinity,
           ),
-          secondChild: Image.asset(
-            'assets/icon/ocean.jpg',
+          secondChild: Image.network(
+            'https://picsum.photos/200/300?random=2',
             width: double.infinity,
           ),
           crossFadeState:

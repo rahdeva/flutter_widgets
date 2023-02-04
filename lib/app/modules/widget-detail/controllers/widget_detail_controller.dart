@@ -7,8 +7,8 @@ class WidgetDetailController extends GetxController {
 
   @override
   void onInit() {
-    widgetName = Get.arguments["widgetName"];
-    widgetView = Get.arguments["widgetView"];
+    widgetName = Get.arguments["widgetName"] ?? "Widget Detail";
+    widgetView = Get.arguments["widgetView"] ?? const Text("Widget Detail");
     super.onInit();
   }
 }

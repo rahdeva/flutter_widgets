@@ -13,7 +13,7 @@ class Widget155 extends StatelessWidget {
             left: 20,
             top: 20,
             child: Image.network(
-              'https://tinyurl.com/yc4pctt5',
+              'https://picsum.photos/seed/picsum/200/300',
               width: 250,
             ),
           ),
@@ -21,7 +21,7 @@ class Widget155 extends StatelessWidget {
             left: 60,
             top: 120,
             child: Image.network(
-              'https://tinyurl.com/22yj4f66',
+              'https://picsum.photos/seed/picsum/200/300',
               width: 250,
             ),
           ),
@@ -29,7 +29,7 @@ class Widget155 extends StatelessWidget {
             left: 100,
             top: 220,
             child: Image.network(
-              'https://tinyurl.com/5n97bfvp',
+              'https://picsum.photos/seed/picsum/200/300',
               width: 250,
             ),
           ),

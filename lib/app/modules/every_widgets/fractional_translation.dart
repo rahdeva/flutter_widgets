@@ -15,7 +15,7 @@ class Widget108 extends StatelessWidget {
           width: 100,
         ),
         FractionalTranslation(
-          translation: const Offset(1, -1),
+          translation: const Offset(2, -1),
           child: Container(
             color: Colors.orangeAccent,
             height: 100,
@@ -23,7 +23,7 @@ class Widget108 extends StatelessWidget {
           ),
         ),
         FractionalTranslation(
-          translation: const Offset(1, -1),
+          translation: const Offset(5, -1),
           child: Container(
             color: Colors.redAccent,
             height: 100,

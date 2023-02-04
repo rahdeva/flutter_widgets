@@ -2,14 +2,14 @@
 
 import 'package:flutter/material.dart';
 
-class Widget086 extends StatefulWidget {
-  const Widget086({Key? key}) : super(key: key);
+class Widget089 extends StatefulWidget {
+  const Widget089({Key? key}) : super(key: key);
 
   @override
-  Widget086State createState() => Widget086State();
+  Widget089State createState() => Widget089State();
 }
 
-class Widget086State extends State<Widget086> {
+class Widget089State extends State<Widget089> {
   Color caughtColor = Colors.red;
 
   @override
