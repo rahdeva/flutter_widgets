@@ -1,21 +1,31 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/app/routes/app_pages.dart';
+import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 
 class WidgetItems extends StatelessWidget {
   final String data;
   final int index;
+  final Widget widgetView;
 
   const WidgetItems({
     Key? key,
     required this.data, 
-    required this.index,
+    required this.index, 
+    required this.widgetView,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-
+        Get.toNamed(
+          Routes.WIDGET_DETAIL,
+          arguments: {
+            "widgetName": data, 
+            "widgetView": widgetView
+          }
+        );
       },
       child: Container(
         width: 100.w,

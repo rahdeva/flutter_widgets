@@ -25,6 +25,7 @@ class HomeView extends GetView<HomeController> {
             physics: const NeverScrollableScrollPhysics(),
             itemBuilder: (context, index) {
               return WidgetItems(
+                widgetView: controller.widgetView[index],
                 index: index,
                 data: controller.widgetList[index],
               );
